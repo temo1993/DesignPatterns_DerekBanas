@@ -6,7 +6,7 @@ It separates behavior from super and subclasses. It is a super design pattern an
 - See more at: http://www.newthinktank.com/2012/08/strategy-design-pattern-tutorial/#sthash.kpb6otF3.dpuf
 
 
-****************************************************///OBSERVER\\\******************************************************
+***************************************************///OBSERVER\\\******************************************************
 2. Observer:
 The Observer pattern is a software design pattern in which an object, called the subject (Publisher),
 maintains a list of its dependents, called observers (Subscribers),
