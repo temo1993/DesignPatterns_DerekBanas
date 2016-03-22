@@ -1,4 +1,4 @@
-****************************************************///STRATEGY\\\******************************************
+****************************************************///STRATEGY\\\*****************************************
 1. Strategy:
 You use this pattern if you need to dynamically change an algorithm used by an object at run time.
 Don’t worry, just watch the video and you’ll get it. The pattern also allows you to eliminate code duplication.
@@ -6,7 +6,7 @@ It separates behavior from super and subclasses. It is a super design pattern an
 - See more at: http://www.newthinktank.com/2012/08/strategy-design-pattern-tutorial/#sthash.kpb6otF3.dpuf
 
 
-***************************************************///OBSERVER\\\******************************************
+***************************************************///OBSERVER\\\*****************************************
 2. Observer:
 The Observer pattern is a software design pattern in which an object, called the subject (Publisher),
 maintains a list of its dependents, called observers (Subscribers),
@@ -14,7 +14,7 @@ and notifies them automatically of any state changes, usually by calling one of 
 - See more at: http://www.newthinktank.com/2012/08/observer-design-pattern-tutorial/#sthash.qFhscyOA.dpuf
 
 
-****************************************************///FACTORY\\\*******************************************
+****************************************************///FACTORY\\\******************************************
 3. Factory:
 You use the Factory design pattern when you want to define the class of an object at runtime.
 It also allows you to encapsulate object creation so that you can keep all object creation code in one place.
@@ -23,7 +23,7 @@ Refer to the code that follows the video to completely understand it.
 - See more at: http://www.newthinktank.com/2012/09/factory-design-pattern-tutorial/#sthash.LGYUChsG.dpuf
 
 
-************************************************///Abstract Factory\\\**************************************
+************************************************///Abstract Factory\\\*************************************
 4. Abstract Factory:
 This is considered a hard pattern to understand,
 but I consider it to be a combination of all you have learned previously.
@@ -32,7 +32,7 @@ This makes it possible to make extremely flexible objects. All of the code follo
 - See more at: http://www.newthinktank.com/2012/09/abstract-factory-design-pattern/#sthash.lPGabivT.dpuf
 
 
-***************************************************///SINGLETON\\\******************************************
+***************************************************///SINGLETON\\\*****************************************
 5. Singleton:
 The Singleton pattern is both easy to understand as well as useful.
 I’ll demonstrate first how to implement the Singleton pattern.
@@ -43,7 +43,7 @@ I’ll also review how to use threads, LinkedLists and more.
 - See more at: http://www.newthinktank.com/2012/09/singleton-design-pattern-tutorial/#sthash.uNQ8maeX.dpuf
 
 
-***************************************************///BUILDER\\\********************************************
+***************************************************///BUILDER\\\*******************************************
 6. Builder:
 You use the builder design pattern when you want to have many classes help in the creation of an object.
 By having different classes build the object you can then easily create many different types of objects
@@ -52,7 +52,7 @@ like you’d make using the Abstract Factory design pattern. All of the code fol
 - See more at: http://www.newthinktank.com/2012/09/builder-design-pattern-tutorial/#sthash.HeLXs14v.dpuf
 
 
-**************************************************///PROTOTYPE\\\*******************************************
+**************************************************///PROTOTYPE\\\******************************************
 7. Prototype:
 The Prototype design pattern is used for creating new objects (instances) by cloning (copying) other objects.
 It allows for the adding of any subclass instance of a known super class at run time.
@@ -62,7 +62,7 @@ potentially unneeded subclasses. All of the code follows the video to help you l
 - See more at: http://www.newthinktank.com/2012/09/prototype-design-pattern-tutorial/#sthash.uYY57BrY.dpuf
 
 
-************************************************///JAVA REFLECTION\\\***************************************
+************************************************///JAVA REFLECTION\\\**************************************
 8. Java Reflection:
 Many people are confused by reflection because they think it is a concept or technique.
 Java Reflection is an API and as soon as you know that it becomes easy.
@@ -71,7 +71,7 @@ including fields, methods, constructors, private data, etc. And, in this tutoria
 - See more at: http://www.newthinktank.com/2012/09/java-reflection-video-tutorial/#sthash.4lye7m0z.dpuf
 
 
-*************************************************///DECORATOR\\\********************************************
+*************************************************///DECORATOR\\\*******************************************
 9. Decorator:
 The Decorator allows you to modify an object dynamically.
 You would use it when you want the capabilities of inheritance with subclasses,
@@ -81,7 +81,7 @@ Also, rather than rewrite old code you can extend it with new code and that is a
 - See more at: http://www.newthinktank.com/2012/09/decorator-design-pattern-tutorial/#sthash.qFWO1pEU.dpuf
 
 
-**************************************************///COMMAND\\\*********************************************
+**************************************************///COMMAND\\\********************************************
 10. Command:
 The Command design pattern allows you to store a list of commands for later use.
 With it you can store multiple commands in a class to use over and over.
@@ -91,7 +91,7 @@ All of the code follows the video. Between it and the video you should be an exp
 - See more at: http://www.newthinktank.com/2012/09/command-design-pattern-tutorial/#sthash.0IlNDF45.dpuf
 
 
-**************************************************///ADAPTER\\\*********************************************
+**************************************************///ADAPTER\\\********************************************
 11. Adapter:
 This is a very easy design pattern to grasp and put into use.
 This pattern is used when you want to translate one interface of a class into another interface.
@@ -101,7 +101,7 @@ Watch the video and look at the code below and you’ll get it.
 - See more at: http://www.newthinktank.com/2012/09/adapter-design-pattern-tutorial/#sthash.vRk4lxbt.dpuf
 
 
-**************************************************///FACADE\\\**********************************************
+**************************************************///FACADE\\\*********************************************
 12. Facade:
 The Facade pattern is extremely easy to understand.
 Chances are you have used it already and just didn’t know it.
@@ -113,7 +113,7 @@ you don’t catch in the video.
 - See more at: http://www.newthinktank.com/2012/09/facade-design-pattern-tutorial/#sthash.nMMTLlKq.dpuf
 
 
-**************************************************///BRIDGE\\\**********************************************
+**************************************************///BRIDGE\\\*********************************************
 13. Bridge:
 If you ever wanted to build a group of classes that slowly added functionality from one class to the next,
 this is the design pattern for you.
@@ -123,7 +123,7 @@ I have found it is useful. The code after the video goes into greater detail if 
 - See more at: http://www.newthinktank.com/2012/10/bridge-design-pattern-tutorial/#sthash.2Njl9Wj5.dpuf
 
 
-**********************************************///TEMPLATE METHOD\\\*****************************************
+**********************************************///TEMPLATE METHOD\\\****************************************
 14. Template Method:
 It is an extremely easy design pattern to understand and use.
 With this pattern, you define a method (algorithm) in an abstract class.
@@ -134,7 +134,7 @@ Look at the code after the video to get a complete understanding quickly.
 - See more at: http://www.newthinktank.com/2012/10/template-method-design-pattern-tutorial/#sthash.wDjg9mLC.dpuf
 
 
-************************************************///ITERATOR\\\**********************************************
+************************************************///ITERATOR\\\*********************************************
 15. Iterator:
 The iterator design pattern allows you to access objects that are stored in many different collection types.
 You do this by creating a common interface that these classes share.
@@ -144,7 +144,7 @@ The example video will explain how and the code that follows will reenforce the 
 - See more at: http://www.newthinktank.com/2012/10/iterator-design-pattern-tutorial/#sthash.fa8yOQFa.dpuf
 
 
-************************************************///COMPOSITE\\\*********************************************
+************************************************///COMPOSITE\\\********************************************
 16. Composite:
 The Composite design pattern is used to structure data into its individual parts
 as well as represent the inner workings of every part of a larger object.
@@ -154,7 +154,7 @@ All of the code follows the video to help you learn. It is heavily commented.
 - See more at: http://www.newthinktank.com/2012/10/composite-design-pattern-tutorial/#sthash.2t7nlSRc.dpuf
 
 
-***********************************************///FLYWEIGHT\\\**********************************************
+***********************************************///FLYWEIGHT\\\*********************************************
 17. Flyweight:
 The flyweight design pattern is used to dramatically increase the speed of your code
 when you are using many similar objects. To reduce memory usage the flyweight design pattern shares Objects
@@ -164,7 +164,7 @@ The code follows to help you learn.
 - See more at: http://www.newthinktank.com/2012/10/flyweight-design-pattern-tutorial/#sthash.oq3IQA5q.dpuf
 
 
-************************************************///STATE\\\*************************************************
+************************************************///STATE\\\************************************************
 18. State:
 I explain how the state pattern is used by using it to simulate an ATM machine.
 I explain how you come to decide on the different states.
@@ -174,7 +174,7 @@ All the steps are looked at from many directions and the code below will fill in
 - See more at: http://www.newthinktank.com/2012/10/state-design-pattern-tutorial/#sthash.EFPdzUFj.dpuf
 
 
-************************************************///PROXY\\\*************************************************
+************************************************///PROXY\\\************************************************
 19. Proxy:
 The Proxy design pattern limits access to just the methods you want made accessible in another class.
 It can be used for security reasons, because an Object is intensive to create,
@@ -184,7 +184,7 @@ You may want to check that tutorial out before proceeding.
 - See more at: http://www.newthinktank.com/2012/10/proxy-design-pattern-tutorial/#sthash.MDAqczX4.dpuf
 
 
-******************************************///CHAIN OF RESPONSIBILITY\\\*************************************
+******************************************///CHAIN OF RESPONSIBILITY\\\************************************
 20. Chain Of Responsibility:
 This pattern has a group of objects that are expected to between them be able to solve a problem.
 If the first Object can’t solve it, it passes the data to the next Object in the chain.
@@ -194,7 +194,7 @@ The code follows the video to help you learn.
 - See more at: http://www.newthinktank.com/2012/10/chain-of-responsibility-design-pattern-tutorial/#sthash.BKA3CTXa.dpuf
 
 
-***********************************************///INTERPRETER\\\********************************************
+***********************************************///INTERPRETER\\\*******************************************
 21. Interpreter:
 The Interpreter design pattern is ignored by most, but in this tutorial I’ll show you how to do some
 cool things with it. In top of that, I’ll also answer all of the recent questions I’ve received about both
@@ -204,7 +204,7 @@ All of the code follows the video and it is heavily commented to help you learn.
 - See more at: http://www.newthinktank.com/2012/10/interpreter-design-pattern-tutorial/#sthash.VVXsZCj5.dpuf
 
 
-************************************************///MEDIATOR\\\**********************************************
+************************************************///MEDIATOR\\\*********************************************
 22. Mediator:
 The Mediator design pattern is used to handle communication between related objects (Colleagues).
 All communication is handled by a Mediator Object and the Colleagues don’t need to know
@@ -215,7 +215,7 @@ Allows for the actions of each object set to vary independently of one another.
 - See more at: http://www.newthinktank.com/2012/10/mediator-design-pattern-tutorial/#sthash.SKpvv6kh.dpuf
 
 
-************************************************///MEMENTO\\\***********************************************
+************************************************///MEMENTO\\\**********************************************
 23. Memento:
 The Memento design pattern provides a way to store previous states of an Object easily.
 It has 3 main classes. Memento: The basic object that is stored in different states.
@@ -226,7 +226,7 @@ It can store and retrieve stored Mementos. All of the code is down below to help
 - See more at: http://www.newthinktank.com/2012/10/memento-design-pattern-tutorial/#sthash.AajoCpNV.dpuf
 
 
-************************************************///VISITOR\\\***********************************************
+************************************************///VISITOR\\\**********************************************
 24. Visitor:
 The Visitor design pattern allows you to add methods to classes of different types without much altering
 to those classes. You can make completely different methods depending on the class used with this pattern.
