@@ -34,13 +34,13 @@ public class HasCard implements ATMState {
 		
 		if(pinEntered == 1234){
 			
-			System.out.println("You entered the correct PIN");
+			System.out.println("You entered the correct PIN ");
 			atmMachine.correctPinEntered = true;
 			atmMachine.setATMState(atmMachine.getHasPin());
 			
 		} else {
 			
-			System.out.println("You entered the wrong PIN");
+			System.out.println("You entered the wrong PIN ");
 			atmMachine.correctPinEntered = false;
 			System.out.println("Your card is ejected");
 			atmMachine.setATMState(atmMachine.getNoCardState());
