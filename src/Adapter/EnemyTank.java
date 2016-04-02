@@ -1,4 +1,5 @@
-package Adapter;// EnemyTank implements EnemyAttacker perfectly
+package Adapter;
+// EnemyTank implements EnemyAttacker perfectly
 // Our job is to make classes with different methods
 // from EnemyAttacker to work with the EnemyAttacker interface
 
