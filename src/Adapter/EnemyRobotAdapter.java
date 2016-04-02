@@ -7,11 +7,11 @@ package Adapter;// The Adapter must provide an alternative action for
 // All calls to EnemyAttacker methods are sent
 // instead to methods used by EnemyRobot
 
-public class EnemyRobotAdapter implements EnemyAttacker{
+class EnemyRobotAdapter implements EnemyAttacker{
 
-	EnemyRobot theRobot;
+	private EnemyRobot theRobot;
 	
-	public EnemyRobotAdapter(EnemyRobot newRobot){
+	EnemyRobotAdapter(EnemyRobot newRobot){
 		
 		theRobot = newRobot;
 		

@@ -4,9 +4,9 @@ package Adapter;// EnemyTank implements EnemyAttacker perfectly
 
 import java.util.Random;
 
-public class EnemyTank implements EnemyAttacker{
+class EnemyTank implements EnemyAttacker{
 	
-	Random generator = new Random();
+	private Random generator = new Random();
 
 	public void fireWeapon() {
 		

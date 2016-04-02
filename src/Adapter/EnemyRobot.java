@@ -4,11 +4,11 @@ package Adapter;// This is the Adaptee. The Adapter sends method calls
 
 import java.util.Random;
 
-public class EnemyRobot{
+class EnemyRobot{
 
-	Random generator = new Random();
+	private Random generator = new Random();
 	
-	public void smashWithHands() {
+	void smashWithHands() {
 		
 		int attackDamage = generator.nextInt(10) + 1;
 		
@@ -16,7 +16,7 @@ public class EnemyRobot{
 		
 	}
 
-	public void walkForward() {
+	void walkForward() {
 		
 		int movement = generator.nextInt(5) + 1;
 		
@@ -24,7 +24,7 @@ public class EnemyRobot{
 		
 	}
 
-	public void reactToHuman(String driverName) {
+	void reactToHuman(String driverName) {
 		
 		System.out.println("Enemy Robot Tramps on " + driverName);
 		
