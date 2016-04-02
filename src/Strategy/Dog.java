@@ -1,6 +1,6 @@
 package Strategy;
 
-public class Dog extends Animal{
+class Dog extends Animal{
 	
 	public void digHole(){
 		
@@ -8,7 +8,7 @@ public class Dog extends Animal{
 		
 	}
 	
-	public Dog(){
+	Dog(){
 		
 		super();
 		

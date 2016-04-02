@@ -1,6 +1,6 @@
 package Strategy;
 
-public class Animal {
+class Animal {
 	
 	private String name;
 	private double height;
@@ -23,7 +23,7 @@ public class Animal {
 	// Composition allows you to change the capabilities of 
 	// objects at run time!
 	
-	public Flys flyingType;
+	Flys flyingType;
 	
 	public void setName(String newName){ name = newName; }
 	public String getName(){ return name; }
@@ -46,7 +46,7 @@ public class Animal {
 	public void setSpeed(double newSpeed){ speed = newSpeed; }
 	public double getSpeed(){ return speed; }
 	
-	public void setSound(String newSound){ sound = newSound; }
+	void setSound(String newSound){ sound = newSound; }
 	public String getSound(){ return sound; }
 	
 	/* BAD
@@ -62,7 +62,7 @@ public class Animal {
 	
 	// Animal pushes off the responsibility for flying to flyingType
 	
-	public String tryToFly(){
+	String tryToFly(){
 		
 		return flyingType.fly();
 		
@@ -71,7 +71,7 @@ public class Animal {
 	// If you want to be able to change the flyingType dynamically
 	// add the following method
 	
-	public void setFlyingAbility(Flys newFlyType){
+	void setFlyingAbility(Flys newFlyType){
 		
 		flyingType = newFlyType;
 		

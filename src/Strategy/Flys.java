@@ -9,7 +9,7 @@ package Strategy;
 
 // I'm decoupling : encapsulating the concept that varies
 
-public interface Flys {
+interface Flys {
 	
    String fly();
    
