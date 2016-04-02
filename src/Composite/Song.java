@@ -1,12 +1,12 @@
 package Composite;
 
-public class Song extends SongComponent {
+class Song extends SongComponent {
 	
-	String songName;
-	String bandName;
-	int releaseYear;
+	private String songName;
+	private String bandName;
+	private int releaseYear;
 	
-	public Song(String newSongName, String newBandName, int newReleaseYear){
+	Song(String newSongName, String newBandName, int newReleaseYear){
 		
 		songName = newSongName;
 		bandName = newBandName;

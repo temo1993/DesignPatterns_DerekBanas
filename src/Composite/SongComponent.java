@@ -1,7 +1,7 @@
 package Composite;// This acts as an interface for every Song (Leaf)
 // and SongGroup (Composite) we create
 
-public abstract class SongComponent {
+abstract class SongComponent {
 	
 	// We throw UnsupportedOperationException so that if
 	// it doesn't make sense for a song, or song group

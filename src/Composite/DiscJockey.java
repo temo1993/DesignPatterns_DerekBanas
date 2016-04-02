@@ -1,13 +1,13 @@
 package Composite;
 
-public class DiscJockey{
+class DiscJockey{
 	
-	SongComponent songList;
+	private SongComponent songList;
 	
 	// newSongList contains every Song, SongGroup,
 	// and any Songs saved in SongGroups
 	
-	public DiscJockey(SongComponent newSongList){
+	DiscJockey(SongComponent newSongList){
 		
 		songList = newSongList;
 		
@@ -16,7 +16,7 @@ public class DiscJockey{
 	// Calls the displaySongInfo() on every Song
 	// or SongGroup stored in songList
 	
-	public void getSongList(){
+	void getSongList(){
 		
 		songList.displaySongInfo();
 		
