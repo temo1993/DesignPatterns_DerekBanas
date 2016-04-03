@@ -36,7 +36,7 @@ class SongGroup extends SongComponent {
 	
 	public SongComponent getComponent(int componentIndex) {
 		
-		return (SongComponent)songComponents.get(componentIndex);
+		return songComponents.get(componentIndex);
 		
 	}
 	
