@@ -51,6 +51,4 @@ class SongGroup extends SongComponent {
 		songComponents.forEach(SongComponent::displaySongInfo);
 		
 	}
-	
-	
 }
