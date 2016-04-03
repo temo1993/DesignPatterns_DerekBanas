@@ -7,7 +7,7 @@ class SongGroup extends SongComponent {
 	// Contains any Songs or SongGroups that are added
 	// to this ArrayList
 	
-	private ArrayList songComponents = new ArrayList();
+	private ArrayList<SongComponent> songComponents = new ArrayList<>();
 	
 	private String groupName;
 	private String groupDescription;
