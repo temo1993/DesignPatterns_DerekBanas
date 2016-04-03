@@ -48,13 +48,7 @@ class SongGroup extends SongComponent {
 		// Cycles through and prints any Songs or SongGroups added
 		// to this SongGroups ArrayList songComponents
 
-		for (Object songComponent : songComponents) {
-
-			SongComponent songInfo = (SongComponent) songComponent;
-
-			songInfo.displaySongInfo();
-
-		}
+		songComponents.forEach(SongComponent::displaySongInfo);
 		
 	}
 	
