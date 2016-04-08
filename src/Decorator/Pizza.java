@@ -1,4 +1,5 @@
-package Decorator;// Blueprint for classes that will have decorators
+package Decorator;
+// Blueprint for classes that will have decorators
 
 interface Pizza {
 	
