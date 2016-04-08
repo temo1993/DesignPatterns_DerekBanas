@@ -1,9 +1,10 @@
-package Decorator;// Implements the Pizza interface with only the required
+package Decorator;
+// Implements the Pizza interface with only the required
 // methods from the interface
 
 // Every Pizza made will start as a PlainPizza
 
-public class PlainPizza implements Pizza {
+class PlainPizza implements Pizza {
  
 	public String getDescription() {
 		
