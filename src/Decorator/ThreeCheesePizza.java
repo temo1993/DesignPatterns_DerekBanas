@@ -1,4 +1,5 @@
-package Decorator;// By going this route I'll have to create a new subclass
+package Decorator;
+// By going this route I'll have to create a new subclass
 // for an infinite number of pizza.
 // I'd also have to change prices in many classes 
 // when just 1 Pizza topping cost changes
