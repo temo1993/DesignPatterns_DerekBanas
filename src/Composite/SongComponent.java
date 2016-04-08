@@ -16,7 +16,7 @@ abstract class SongComponent {
 	
 	// This allows me to remove components
 	
-		public void remove(SongComponent newSongComponent) {
+	public void remove(SongComponent newSongComponent) {
 			throw new UnsupportedOperationException();
 	}
 		
