@@ -1,8 +1,8 @@
 package Decorator;
 
-public class Mozzarella extends ToppingDecorator {
+class Mozzarella extends ToppingDecorator {
 
-	public Mozzarella(Pizza newPizza) {
+	Mozzarella(Pizza newPizza) {
 		
 		super(newPizza);
 		

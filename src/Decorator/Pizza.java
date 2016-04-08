@@ -1,6 +1,6 @@
 package Decorator;// Blueprint for classes that will have decorators
 
-public interface Pizza {
+interface Pizza {
 	
 	String getDescription();
 	

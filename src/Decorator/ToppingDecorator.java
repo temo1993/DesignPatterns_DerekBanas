@@ -3,7 +3,7 @@ package Decorator;// Has a "Has a" relationship with Pizza. This is an
 
 abstract class ToppingDecorator implements Pizza {
 
-	protected Pizza tempPizza;
+	Pizza tempPizza;
 	
 	// Assigns the type instance to this attribute
 	// of a Pizza
@@ -11,7 +11,7 @@ abstract class ToppingDecorator implements Pizza {
 	// All decorators can dynamically customize the Pizza
 	// instance PlainPizza because of this
 	
-	public ToppingDecorator(Pizza newPizza){
+	ToppingDecorator(Pizza newPizza){
 		
 		tempPizza = newPizza;
 		
