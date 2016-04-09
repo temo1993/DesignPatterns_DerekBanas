@@ -2,7 +2,7 @@ package Singleton;
 
 import java.util.LinkedList;
 
-public class GetTheTiles implements Runnable {
+class GetTheTiles implements Runnable {
 	
 	public void run(){
 

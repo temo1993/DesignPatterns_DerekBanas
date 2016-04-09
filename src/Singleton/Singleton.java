@@ -4,11 +4,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class Singleton {
+class Singleton {
 	
 	private static Singleton firstInstance = null;
 	
-	String[] scrabbleLetters = {"a", "a", "a", "a", "a", "a", "a", "a", "a",
+	private String[] scrabbleLetters = {"a", "a", "a", "a", "a", "a", "a", "a", "a",
 			"b", "b", "c", "c", "d", "d", "d", "d", "e", "e", "e", "e", "e", 
 			"e", "e", "e", "e", "e", "e", "e", "f", "f", "g", "g", "g", "h", 
 			"h", "i", "i", "i", "i", "i", "i", "i", "i", "i", "j", "k", "l", 
@@ -17,10 +17,10 @@ public class Singleton {
 			"r", "r", "s", "s", "s", "s", "t", "t", "t", "t", "t", "t", "u", 
 			"u", "u", "u", "v", "v", "w", "w", "x", "y", "y", "z",};  
 	
-	private LinkedList<String> letterList = new LinkedList<String> (Arrays.asList(scrabbleLetters));
+	private LinkedList<String> letterList = new LinkedList<> (Arrays.asList(scrabbleLetters));
    
     // Used to slow down 1st thread
-	static boolean firstThread = true;
+	private static boolean firstThread = true;
 	
 	// Created to keep users from instantiation
 	// Only Singleton will be able to instantiate this class
@@ -77,17 +77,17 @@ public class Singleton {
 		return firstInstance;
 	}
 	
-	public LinkedList<String> getLetterList(){
+	LinkedList<String> getLetterList(){
 		
 		return firstInstance.letterList;
 		
 	}
 	
-	public LinkedList<String> getTiles(int howManyTiles){
+	LinkedList<String> getTiles(int howManyTiles){
 		
 		// Tiles to be returned to the user
 		
-		LinkedList<String> tilesToSend = new LinkedList<String>();
+		LinkedList<String> tilesToSend = new LinkedList<>();
 		
 		// Cycle through the LinkedList while adding the starting
 		// Strings to the to be returned LinkedList while deleting
