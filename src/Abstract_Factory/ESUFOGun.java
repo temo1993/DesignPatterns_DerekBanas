@@ -2,7 +2,7 @@ package Abstract_Factory;// Here we define a basic component of a space ship
 // Any part that implements the interface ESWeapon
 // can replace that part in any ship
 
-public class ESUFOGun implements ESWeapon{
+class ESUFOGun implements ESWeapon{
 	
 	// EnemyShip contains a reference to the object
 	// ESWeapon. It is stored in the field weapon

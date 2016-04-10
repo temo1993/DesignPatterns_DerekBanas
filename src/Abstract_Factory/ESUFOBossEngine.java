@@ -3,7 +3,7 @@ package Abstract_Factory;
 // Any part that implements the interface ESEngine
 // can replace that part in any ship
 
-public class ESUFOBossEngine implements ESEngine{
+class ESUFOBossEngine implements ESEngine{
 	
 	// EnemyShip contains a reference to the object
 	// ESWeapon. It is stored in the field weapon

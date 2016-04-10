@@ -3,7 +3,7 @@ package Abstract_Factory;
 // want to determine which enemy ships you want to
 // provide as an option to build
 
-public class UFOEnemyShipBuilding extends EnemyShipBuilding {
+class UFOEnemyShipBuilding extends EnemyShipBuilding {
 
 	protected EnemyShip makeEnemyShip(String typeOfShip) {
 		EnemyShip theEnemyShip = null;

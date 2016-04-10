@@ -1,12 +1,12 @@
 package Abstract_Factory;
 
-public class UFOEnemyShip extends EnemyShip{
+class UFOEnemyShip extends EnemyShip{
 	
 	// We define the type of ship we want to create
 	// by stating we want to use the factory that 
 	// makes enemy ships
 	
-	EnemyShipFactory shipFactory;
+	private EnemyShipFactory shipFactory;
 	
 	// The enemy ship required parts list is sent to 
 	// this method. They state that the enemy ship
@@ -14,7 +14,7 @@ public class UFOEnemyShip extends EnemyShip{
 	// object also states the specific parts needed
 	// to make a regular UFO versus a Boss UFO
 	
-	public UFOEnemyShip(EnemyShipFactory shipFactory){
+	UFOEnemyShip(EnemyShipFactory shipFactory){
 		
 		this.shipFactory = shipFactory;
 		

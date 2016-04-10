@@ -1,6 +1,6 @@
 package Abstract_Factory;
 
-public abstract class EnemyShipBuilding {
+abstract class EnemyShipBuilding {
 	
 	// This acts as an ordering mechanism for creating
 	// EnemyShips that have a weapon, engine & name
@@ -15,7 +15,7 @@ public abstract class EnemyShipBuilding {
 	// are based on the String entered. After the ship is made
 	// we execute multiple methods in the EnemyShip Object
 	
-	public EnemyShip orderTheShip(String typeOfShip) {
+	EnemyShip orderTheShip(String typeOfShip) {
 		EnemyShip theEnemyShip = makeEnemyShip(typeOfShip);
 		
 		theEnemyShip.makeShip();

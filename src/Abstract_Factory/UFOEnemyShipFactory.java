@@ -8,7 +8,7 @@ package Abstract_Factory;
 
 // The returned object specifies a specific weapon & engine
 
-public class UFOEnemyShipFactory implements EnemyShipFactory{
+class UFOEnemyShipFactory implements EnemyShipFactory{
 
 	// Defines the weapon object to associate with the ship
 	
