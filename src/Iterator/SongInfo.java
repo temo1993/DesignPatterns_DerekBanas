@@ -1,4 +1,5 @@
-package Iterator;// Will hold all of the info needed for each song
+package Iterator;
+// Will hold all of the info needed for each song
 
 // I told all users to:
 // 1. create a function named addSong() for adding song, band and release
