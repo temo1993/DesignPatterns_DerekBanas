@@ -5,13 +5,13 @@ package Iterator;// Will hold all of the info needed for each song
 // 2. create a function named getBestSongs() that will return the collection
 //    of songs
 
-public class SongInfo{
+class SongInfo{
 	
-	String songName; 
-	String bandName; 
-	int yearReleased;
+	private String songName;
+	private String bandName;
+	private int yearReleased;
 	
-	public SongInfo(String newSongName, String newBandName, int newYearReleased){
+	SongInfo(String newSongName, String newBandName, int newYearReleased){
 		
 		songName = newSongName;
 		bandName = newBandName;
@@ -19,8 +19,8 @@ public class SongInfo{
 		
 	}
 	
-	public String getSongName(){ return songName; }
-	public String getBandName(){ return bandName; }
-	public int getYearReleased(){ return yearReleased; }
+	String getSongName(){ return songName; }
+	String getBandName(){ return bandName; }
+	int getYearReleased(){ return yearReleased; }
 	
 }

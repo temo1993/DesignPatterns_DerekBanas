@@ -3,18 +3,18 @@ package Iterator;
 import java.util.Hashtable;
 import java.util.Iterator;
 
-public class SongsOfThe90s implements SongIterator{
+class SongsOfThe90s implements SongIterator{
 	
 	// Create a Hashtable with an int as a key and SongInfo
 	// Objects 
 	
-	Hashtable<Integer, SongInfo> bestSongs = new Hashtable<Integer, SongInfo>();
+	private Hashtable<Integer, SongInfo> bestSongs = new Hashtable<Integer, SongInfo>();
 	
 	// Will increment the Hashtable key
 	
-	int hashKey = 0;
+	private int hashKey = 0;
 	
-	public SongsOfThe90s() {
+	SongsOfThe90s() {
 		
 		addSong("Losing My Religion", "REM", 1991);
 		addSong("Creep", "Radiohead", 1993);
@@ -25,7 +25,7 @@ public class SongsOfThe90s implements SongIterator{
 	// Add a new SongInfo Object to the Hashtable and then increment
 	// the Hashtable key
 	
-	public void addSong(String songName, String bandName, int yearReleased){
+	private void addSong(String songName, String bandName, int yearReleased){
 		
 		SongInfo songInfo = new SongInfo(songName, bandName, yearReleased);
 		
@@ -38,7 +38,7 @@ public class SongsOfThe90s implements SongIterator{
 	// This is replaced by the Iterator
 	// Return a Hashtable full of SongInfo Objects
 	
-	public Hashtable<Integer, SongInfo> getBestSongs(){
+	Hashtable<Integer, SongInfo> getBestSongs(){
 		
 		return bestSongs;
 		

@@ -3,17 +3,17 @@ package Iterator;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class SongsOfThe80s implements SongIterator{
+class SongsOfThe80s implements SongIterator{
 	
 	// Create an array of SongInfo Objects
 	
-	SongInfo[] bestSongs;
+	private SongInfo[] bestSongs;
 	
 	// Used to increment to the next position in the array
 	
-	int arrayValue = 0;
+	private int arrayValue = 0;
 	
-	public SongsOfThe80s() {
+	SongsOfThe80s() {
 		
 		bestSongs = new SongInfo[3];
 		
@@ -25,7 +25,7 @@ public class SongsOfThe80s implements SongIterator{
 	
 	// Add a SongInfo Object to the array and increment to the next position
 	
-	public void addSong(String songName, String bandName, int yearReleased){
+	private void addSong(String songName, String bandName, int yearReleased){
 		
 		SongInfo song = new SongInfo(songName, bandName, yearReleased);
 			
@@ -37,7 +37,7 @@ public class SongsOfThe80s implements SongIterator{
 	
 	// This is replaced by the Iterator
 	
-	public SongInfo[] getBestSongs(){
+	SongInfo[] getBestSongs(){
 		
 		return bestSongs;
 		

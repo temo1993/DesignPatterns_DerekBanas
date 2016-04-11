@@ -5,7 +5,7 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Iterator;
 
-public class DiscJockey {
+class DiscJockey {
 	
 	SongsOfThe70s songs70s;
 	SongsOfThe80s songs80s;
@@ -13,9 +13,9 @@ public class DiscJockey {
 	
 	// NEW Passing in song iterators
 	
-	SongIterator iter70sSongs;
-	SongIterator iter80sSongs;
-	SongIterator iter90sSongs;
+	private SongIterator iter70sSongs;
+	private SongIterator iter80sSongs;
+	private SongIterator iter90sSongs;
 	
 	/* OLD WAY
 	public DiscJockey(SongsOfThe70s newSongs70s, SongsOfThe80s newSongs80s, SongsOfThe90s newSongs90s) {
@@ -29,7 +29,7 @@ public class DiscJockey {
 	
 	// NEW WAY Initialize the iterators	
 	
-	public DiscJockey(SongIterator newSongs70s, SongIterator newSongs80s, SongIterator newSongs90s) {
+	DiscJockey(SongIterator newSongs70s, SongIterator newSongs80s, SongIterator newSongs90s) {
 		
 		iter70sSongs = newSongs70s;
 		iter80sSongs = newSongs80s;
@@ -46,29 +46,29 @@ public class DiscJockey {
 		ArrayList aL70sSongs = songs70s.getBestSongs();
 		
 		System.out.println("Songs of the 70s\n");
-		
-		for(int i=0; i < aL70sSongs.size(); i++){
-			
-			SongInfo bestSongs = (SongInfo) aL70sSongs.get(i);
-			
+
+		for (Object aL70sSong : aL70sSongs) {
+
+			SongInfo bestSongs = (SongInfo) aL70sSong;
+
 			System.out.println(bestSongs.getSongName());
 			System.out.println(bestSongs.getBandName());
 			System.out.println(bestSongs.getYearReleased() + "\n");
-			
+
 		}
 		
 		SongInfo[] array80sSongs = songs80s.getBestSongs();
 		
 		System.out.println("Songs of the 80s\n");
-		
+
 		for(int j=0; j < array80sSongs.length; j++){
-			
+
 			SongInfo bestSongs = array80sSongs[j];
-			
+
 			System.out.println(bestSongs.getSongName());
 			System.out.println(bestSongs.getBandName());
 			System.out.println(bestSongs.getYearReleased() + "\n");
-			
+
 		}
 		
 		Hashtable<Integer, SongInfo> ht90sSongs = songs90s.getBestSongs();
@@ -90,7 +90,7 @@ public class DiscJockey {
 	// Now that I can treat everything as an Iterator it cleans up
 	// the code while allowing me to treat all collections as 1
 	
-	public void showTheSongs2(){
+	void showTheSongs2(){
 		
 		System.out.println("NEW WAY WITH ITERATOR\n");
 		
@@ -109,7 +109,7 @@ public class DiscJockey {
 		
 	}
 	
-	public void printTheSongs(Iterator iterator){
+	private void printTheSongs(Iterator iterator){
 		
 		while(iterator.hasNext()){
 			
