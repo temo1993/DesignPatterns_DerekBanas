@@ -7,27 +7,26 @@ public class EnemyShipFactory{
 	// This could be used as a static method if we
 	// are willing to give up subclassing it
 	
-	public EnemyShip makeEnemyShip(String newShipType){
-		
+	EnemyShip makeEnemyShip(String newShipType){
+
 		EnemyShip newShip = null;
-		
-		if (newShipType.equals("U")){
-			
-			return new UFOEnemyShip();
-			
-		} else 
-		
-		if (newShipType.equals("R")){
-			
-			return new RocketEnemyShip();
-			
-		} else 
-		
-		if (newShipType.equals("B")){
-			
-			return new BigUFOEnemyShip();
-			
-		} else return null;
+
+		switch (newShipType) {
+			case "U":
+
+				return new UFOEnemyShip();
+
+			case "R":
+
+				return new RocketEnemyShip();
+
+			case "B":
+
+				return new BigUFOEnemyShip();
+
+			default:
+				return null;
+		}
 		
 	}
 	
