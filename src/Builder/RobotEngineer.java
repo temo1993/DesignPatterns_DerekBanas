@@ -1,13 +1,13 @@
 package Builder;// The director / engineer class creates a Robot using the
 // builder interface that is defined (OldRobotBuilder)
 
-public class RobotEngineer {
+class RobotEngineer {
 	
 	private RobotBuilder robotBuilder;
 	
 	// OldRobotBuilder specification is sent to the engineer
 	
-	public RobotEngineer(RobotBuilder robotBuilder){
+	RobotEngineer(RobotBuilder robotBuilder){
 		
 		this.robotBuilder = robotBuilder;
 		
@@ -15,7 +15,7 @@ public class RobotEngineer {
 	
 	// Return the Robot made from the OldRobotBuilder spec
 	
-	public Robot getRobot(){
+	Robot getRobot(){
 		
 		return this.robotBuilder.getRobot();
 		
@@ -24,7 +24,7 @@ public class RobotEngineer {
 	// Execute the methods specific to the RobotBuilder 
 	// that implements RobotBuilder (OldRobotBuilder)
 	
-	public void makeRobot() {
+	void makeRobot() {
 		
 		this.robotBuilder.buildRobotHead();
 		this.robotBuilder.buildRobotTorso();

@@ -11,7 +11,7 @@ public class EnemyShipTesting {
 		
 		// Enemy ship object
 		
-		EnemyShip theEnemy = null;
+		EnemyShip theEnemy;
 		
 		Scanner userInput = new Scanner(System.in);
 		
@@ -88,7 +88,7 @@ public class EnemyShipTesting {
 	
 	// Executes methods of the super class
 	
-	public static void doStuffEnemy(EnemyShip anEnemyShip){
+	private static void doStuffEnemy(EnemyShip anEnemyShip){
 		
 		anEnemyShip.displayEnemyShip();
 		

@@ -1,6 +1,6 @@
 package Builder;// The concrete Robot class based on the RobotPlan interface
 
-public class Robot implements RobotPlan{
+class Robot implements RobotPlan{
 
 	private String robotHead;
 	private String robotTorso;
@@ -13,7 +13,7 @@ public class Robot implements RobotPlan{
 		
 	}
 	
-	public String getRobotHead(){ return robotHead; }
+	String getRobotHead(){ return robotHead; }
 
 	
 	public void setRobotTorso(String torso) {
@@ -22,7 +22,7 @@ public class Robot implements RobotPlan{
 		
 	}
 	
-	public String getRobotTorso(){ return robotTorso; }
+	String getRobotTorso(){ return robotTorso; }
 
 	
 	public void setRobotArms(String arms) {
@@ -31,7 +31,7 @@ public class Robot implements RobotPlan{
 		
 	}
 	
-	public String getRobotArms(){ return robotArms; }
+	String getRobotArms(){ return robotArms; }
 
 	
 	public void setRobotLegs(String legs) {
@@ -40,7 +40,7 @@ public class Robot implements RobotPlan{
 		
 	}
 	
-	public String getRobotLegs(){ return robotLegs; }
+	String getRobotLegs(){ return robotLegs; }
 	
 	
 	

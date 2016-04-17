@@ -1,7 +1,7 @@
 package Builder;// Defines the methods needed for creating parts
 // for the robot
 
-public interface RobotBuilder {
+interface RobotBuilder {
 	
 	void buildRobotHead();
 	

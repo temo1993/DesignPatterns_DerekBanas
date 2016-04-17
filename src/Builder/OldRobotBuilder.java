@@ -1,11 +1,11 @@
 package Builder;// The concrete builder class that assembles the parts
 // of the finished Robot object
 
-public class OldRobotBuilder implements RobotBuilder {
+class OldRobotBuilder implements RobotBuilder {
 
 	private Robot robot;
 	
-	public OldRobotBuilder() {
+	OldRobotBuilder() {
 		
 		this.robot = new Robot();
 		

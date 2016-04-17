@@ -1,8 +1,8 @@
 package Factory;
 
-public class RocketEnemyShip extends EnemyShip {
+class RocketEnemyShip extends EnemyShip {
 	
-	public RocketEnemyShip(){
+	RocketEnemyShip(){
 		
 		setName("Rocket Enemy Ship");
 		
