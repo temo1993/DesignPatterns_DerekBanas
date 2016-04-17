@@ -3,8 +3,8 @@ package Flyweight;
 import java.awt.*;
 class MyRect {
    private Color color = Color.black;
-   private int x, y, x2, y2;
-   
+//   private int x, y, x2, y2;
+
    MyRect(Color color) {
 	   
 	   this.color = color;
